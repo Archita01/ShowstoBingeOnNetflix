@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             "The personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan...",
             "Ray Holt, an eccentric commanding officer, and his diverse and quirky team of odd detectives solve crimes in Brooklyn, New York City....",
             "Creatures of unspeakable horror lurk beneath the town of Virginia as a teenage girl is torn between two vampire brothers..."};
-    String [] ShowLink = {"https://www.imdb.com/title/tt4574334/","https://www.imdb.com/title/tt5420376/","https://www.imdb.com/title/tt1475582/","https://www.imdb.com/title/tt1632701/","https://www.imdb.com/title/tt10062292/","https://www.imdb.com/title/tt6468322/","https://www.imdb.com/title/tt1837492/","https://www.imdb.com/title/tt0108778/","https://www.imdb.com/title/tt2467372/","https://www.imdb.com/title/tt1405406/"};
+     String [] ShowLink = {"https://www.imdb.com/title/tt4574334/","https://www.imdb.com/title/tt5420376/","https://www.imdb.com/title/tt1475582/","https://www.imdb.com/title/tt1632701/","https://www.imdb.com/title/tt10062292/","https://www.imdb.com/title/tt6468322/","https://www.imdb.com/title/tt1837492/","https://www.imdb.com/title/tt0108778/","https://www.imdb.com/title/tt2467372/","https://www.imdb.com/title/tt1405406/"};
     int ShowImage[]={R.drawable.i2,R.drawable.i1,R.drawable.i8,R.drawable.i3,R.drawable.i4
             ,R.drawable.i9,R.drawable.i10,R.drawable.i12,R.drawable.i11,R.drawable.i14};
     @Override
