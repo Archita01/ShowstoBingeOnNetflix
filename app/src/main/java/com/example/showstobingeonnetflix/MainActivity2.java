@@ -18,9 +18,11 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        String ReceivedUrl = getIntent().getStringExtra("URL");
         webv = findViewById(R.id.webView);
         webv.setWebViewClient(new WebViewClient());
-        webv.loadUrl("https://www.netflix.com/in/Login");
+        webv.loadUrl(ReceivedUrl);
+
 
     }
 }

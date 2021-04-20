@@ -17,13 +17,15 @@ public class Adapter extends RecyclerView.Adapter<Holder>{
     String[] ShowNameList;
     String[] DescriptionList;
     int[] images;
+    String[] link;
 
-    public Adapter(Context context, String[] ShowNameList, String[] DescriptionList, int[] images)
+    public Adapter(Context context, String[] ShowNameList, String[] DescriptionList, int[] images,String[] ShowLink)
     {
         this.context = context;
         this.ShowNameList = ShowNameList;
         this.DescriptionList = DescriptionList;
         this.images = images;
+        this.link=ShowLink;
     }
 
     @NonNull
@@ -44,6 +46,7 @@ public class Adapter extends RecyclerView.Adapter<Holder>{
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context , MainActivity2.class);
+                intent.putExtra("URL",link[position]);
                 context.startActivity(intent);
             }
         });

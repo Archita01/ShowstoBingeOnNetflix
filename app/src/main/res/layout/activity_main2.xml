@@ -22,18 +22,19 @@
 
             android:layout_alignParentStart="true"
             android:layout_marginStart="16dp"
-            android:text="You are missing out on a lot!  Go and create a Netlfix account now!"
+            android:text="Check out the ratings on IMDb now!"
             android:textColor="#E3DDDD"
             android:typeface="serif"
             android:textSize="22sp"
             android:textStyle="bold" />
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            tools:ignore="WebViewLayout" />
+
     </RelativeLayout>
-    <WebView
-        android:id="@+id/webView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginRight="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="100dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
